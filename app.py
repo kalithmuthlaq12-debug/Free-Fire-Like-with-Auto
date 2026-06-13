@@ -209,7 +209,7 @@ def handle_requests():
         # Determine URL based on server
         if server_name == "IND":
             url = "https://client.ind.freefiremobile.com/LikeProfile"
-        elif server_name in {"BR", "US", "SAC", "NA"}:
+        elif server_name in {"BR", "SG", "US", "SAC", "NA"}:
             url = "https://client.us.freefiremobile.com/LikeProfile"
         else:
             url = "https://clientbp.ggpolarbear.com/LikeProfile"
